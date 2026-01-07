@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Rokok</title>
+  </head>
+  <body>
+    <br><br><br>
+    
+    <table align="center" width="300">
+      <tbody>
+        <tr>
+          <td><label for="name">Siapa Nama Anda</label></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="name" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Berapa Umur Anda</label></td>
+        </tr>
+        <tr>
+          <td><input type="number" name="age" id="age" /></td>
+        </tr>
+        <tr>
+          <td><label for="genre">Jenis Kelamin</label></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="genre" id="genre" value="laki-laki" />
+            laki-laki
+            <input type="radio" name="genre" id="genre" value="perempuan" />
+            perempuan
+          </td>
+        </tr>
+        <tr>
+          <td><label for="chiggarete">Apakah anda perokok</label></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="chiggarete" id="chiggarete" value="Ya" />
+            Ya
+            <input
+              type="radio"
+              name="chiggarete"
+              id="chiggarete"
+              value="Tidak"
+            />
+            Tidak
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="rokok">
+              Jika anda perokok, rokok apa yang anda pernah coba?
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="rokok"
+              name="GudangGaramFilter"
+              value="GudangGaramFilter"
+            />
+            Gudang Garam Filter <br />
+            <input
+              type="checkbox"
+              id="rokok"
+              name="LuckyStrike"
+              value="LuckyStrike"
+            />
+            LuckyStrike <br />
+            <input
+              type="checkbox"
+              id="rokok"
+              name="Marlboro"
+              value="Marlboro"
+            />
+            Marlboro <br />
+            <input type="checkbox" id="rokok" name="Esse" value="Esse" /> Esse
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+
+    <div align="center">lihat <a href="./src/page/table.html">survey</a></div>
+  </body>
+</html>
